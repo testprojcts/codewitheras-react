@@ -1,7 +1,8 @@
 .banner {
   width: 100%;
   height: 550px;
-  padding: 0 60px;
+  padding: 0px 30px;
+  margin-top: 20px;
 }
 
 .banner .banner__content {
@@ -10,10 +11,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
-  border: 2px solid #ddd;
   height: 100%;
-  margin-top: 20px;
   border-radius: 8px;
+  width: 100%;
 }
 
 .banner__content .banner-txt {
@@ -37,6 +37,7 @@
 
 .cta {
   width: 100%;
+  margin-top: 20px;
 }
 
 .cta .cta-btn {
@@ -64,8 +65,8 @@
 }
 
 .banner__img {
-  width: 50%;
-  height: 100%;
+  width: 500px;
+  height: 400px;
 }
 
 .banner__img img {
@@ -73,5 +74,4 @@
   height: 100%;
   object-fit: contain;
   object-position: center;
-  background-color: red;
 }

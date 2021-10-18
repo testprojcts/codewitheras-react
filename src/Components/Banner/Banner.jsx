@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import BannerImg from '.././../assets/BannerImg.png';
+import BannerImg from './../../assets/BannerImg.png';
 
 const Banner = () => {
   return (
@@ -17,9 +17,9 @@ const Banner = () => {
               Explore Courses
             </a>
           </div>
-          <div class='banner__img'>
-            <img src={BannerImg} alt='' />
-          </div>
+        </div>
+        <div class='banner__img'>
+          <img src={BannerImg} alt='' />
         </div>
       </div>
     </section>

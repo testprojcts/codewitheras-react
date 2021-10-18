@@ -16,3 +16,40 @@
 
   --heading-color: #212349;
 }
+
+body {
+  background-color: rgba(235, 235, 235, 0);
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  width: 100%;
+  border-radius: 3px;
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  width: 100%;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  height: 10px;
+  background-color: var(--main-blue);
+  width: 100%;
+  border-radius: 3px;
+  cursor: grab;
+}
+
+.center {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

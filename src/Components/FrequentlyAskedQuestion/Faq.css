@@ -1,0 +1,80 @@
+/******************* FAQ **********************/
+.faq {
+  width: 100%;
+  padding: 0 130px;
+  margin: 180px 0;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.faq .faq-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.faq .faq-container .faq-hd {
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-hd h3 {
+  font-size: 30px;
+  color: var(--heading-color);
+}
+
+.faq-container .faq-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center;
+  justify-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.faq-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 18px 20px;
+  border-radius: 8px;
+  background-color: rgba(243, 242, 242, 0.07);
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.15s linear;
+  /* box-shadow: 1px 3px 12px rgba(216, 215, 215, 0.247); */
+}
+
+.faq-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 3px 15px rgba(221, 221, 221, 0.426);
+  background-color: #fff;
+}
+
+.faq-card .faq-card-hd {
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.faq-card-hd h4 {
+  font-size: 20px;
+  color: var(--heading-color);
+}
+
+.faq-card .faq-card-txt p {
+  color: var(--h1-h3-txt-color);
+  font-size: 16px;
+  line-height: 27px;
+}
