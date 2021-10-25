@@ -6,14 +6,14 @@ import CodeSvg2 from './../../assets/undraw images/CodeSvg2.png';
 const WhyUs = () => {
   return (
     //   Why learn With Klass
-    <section class='learn-with-us'>
-      <div class='learn-container'>
-        <div class='learn-hd'>
+    <section className='learn-with-us'>
+      <div className='learn-container'>
+        <div className='learn-hd'>
           <h3>Why Learn With Codewitheras?</h3>
         </div>
-        <div class='learn-cards'>
-          <div class='learn-card'>
-            <div class='card_img'>
+        <div className='learn-cards'>
+          <div className='learn-card'>
+            <div className='card_img'>
               <img src={CodeSvg1} alt='' />
             </div>
             <h4>Learn By Doing</h4>
@@ -22,8 +22,8 @@ const WhyUs = () => {
               the teacher's code.
             </p>
           </div>
-          <div class='learn-card'>
-            <div class='card_img'>
+          <div className='learn-card'>
+            <div className='card_img'>
               <img src={CodeSvg2} alt='' />
             </div>
             <h4>Learn With Others</h4>
@@ -32,8 +32,8 @@ const WhyUs = () => {
               learners across the globe.
             </p>
           </div>
-          <div class='learn-card'>
-            <div class='card_img'>
+          <div className='learn-card'>
+            <div className='card_img'>
               <img src={CodeSvg1} alt='' />
             </div>
             <h4>Learn By Watching</h4>

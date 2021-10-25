@@ -1,6 +1,5 @@
 /* header */
 
-
 header {
   display: flex;
   align-items: center;
@@ -23,9 +22,9 @@ header .header__container {
   margin: 0 auto;
 }
 
-
-header a {
+header .header__link {
   color: var(--h1-h3-txt-color);
+  cursor: pointer;
 }
 
 .logo {

@@ -3,17 +3,17 @@ import './Faq.css';
 
 const Faq = () => {
   return (
-    <section class='faq center'>
-      <div class='faq-container'>
-        <div class='faq-hd'>
+    <section className='faq center'>
+      <div className='faq-container'>
+        <div className='faq-hd'>
           <h3>Frequently Asked Questions</h3>
         </div>
-        <div class='faq-cards-container'>
-          <div class='faq-card'>
-            <div class='faq-card-hd'>
+        <div className='faq-cards-container'>
+          <div className='faq-card'>
+            <div className='faq-card-hd'>
               <h4>How much is each course?</h4>
             </div>
-            <div class='faq-card-txt'>
+            <div className='faq-card-txt'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, ipsum similique quasi ad molestias commodi officiis
@@ -21,11 +21,11 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div class='faq-card'>
-            <div class='faq-card-hd'>
+          <div className='faq-card'>
+            <div className='faq-card-hd'>
               <h4>How much is each course?</h4>
             </div>
-            <div class='faq-card-txt'>
+            <div className='faq-card-txt'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, ipsum similique quasi ad molestias commodi officiis
@@ -33,11 +33,11 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div class='faq-card'>
-            <div class='faq-card-hd'>
+          <div className='faq-card'>
+            <div className='faq-card-hd'>
               <h4>How much is each course?</h4>
             </div>
-            <div class='faq-card-txt'>
+            <div className='faq-card-txt'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, ipsum similique quasi ad molestias commodi officiis
@@ -45,11 +45,11 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div class='faq-card'>
-            <div class='faq-card-hd'>
+          <div className='faq-card'>
+            <div className='faq-card-hd'>
               <h4>How much is each course?</h4>
             </div>
-            <div class='faq-card-txt'>
+            <div className='faq-card-txt'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, ipsum similique quasi ad molestias commodi officiis

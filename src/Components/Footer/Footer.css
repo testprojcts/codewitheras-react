@@ -1,0 +1,127 @@
+/* Custom Colors */
+:root {
+  --main-blue: #444daa;
+  --main-bg: #ffffff;
+  --banner-bg: #eeeaff2f;
+  --h1-h3-txt-color: #242448;
+  --heading-color: #212349;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--heading-color);
+  color: #ddd;
+  margin-top: 100px;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 60px;
+}
+
+footer ul li {
+  font-size: 14px;
+}
+
+.left__footer {
+  width: 100%;
+  padding: 10px 5px;
+  height: 100%;
+}
+
+.left__footer_hd {
+  margin-bottom: 15px;
+}
+
+.left__footer_hd h3 {
+  font-size: 20px;
+}
+
+.left__footer .left__footer_txt {
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+.left__footer_txt p {
+  font-size: 15px;
+}
+
+.right__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 30px;
+  height: 100%;
+  padding: 10px 5px;
+  gap: 20px;
+  width: 100%;
+}
+
+.right__footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.right__footer .footer__contact {
+  height: 100%;
+}
+
+.footer__contact .footer__heading {
+  margin-bottom: 15px;
+}
+
+.footer__contact a {
+  color: #ddd;
+  cursor: pointer;
+}
+
+.footer__contact a:hover {
+  color: #fff;
+  transition: all 0.15s ease-in-out;
+}
+
+.left__footer_form {
+  /* border: 2px solid white; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left__footer_form input {
+  /* width: 80%; */
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  outline: 0;
+  padding: 8px 4px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.left__footer_form input::placeholder {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.left__footer_form form button {
+  padding: 5px 8px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
